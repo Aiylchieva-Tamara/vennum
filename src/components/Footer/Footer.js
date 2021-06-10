@@ -16,7 +16,7 @@ const Footer = () => {
           <ul>
               <li>5 минут от м. Щелковская</li>
               <li>Щелковское шоссе 79к1</li>
-              <img src={star}/>
+              <img src={star} alt="Logo of the Music"/>
           </ul>
       </div>
       <div>
