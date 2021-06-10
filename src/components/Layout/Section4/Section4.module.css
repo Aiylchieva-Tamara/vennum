@@ -74,4 +74,9 @@
     .text{
         height: 900px;
     }
+    .img{
+        width: 400px;
+        height: 700px;
+        background-size: cover;
+    }
 }
