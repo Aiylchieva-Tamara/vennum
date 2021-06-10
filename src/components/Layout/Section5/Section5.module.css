@@ -14,14 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-@media(max-width:1200px){
-    .section5{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
