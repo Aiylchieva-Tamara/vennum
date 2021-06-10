@@ -40,8 +40,8 @@
     border-bottom: 5px solid transparent;
     text-decoration: none;
     display: block;
-    padding-top:13px;
-    padding-bottom:13px;
+    padding-top:4px;
+    padding-bottom:4px;
     padding-left: 10px;
     padding-right: 10px;
         font-family: "Arial", Arial;
@@ -56,3 +56,12 @@
 .nav a :active{
     border-color: white;
   } 
+  @media(max-width:960px){
+    .nav ul{
+        display:flex ;
+        flex-wrap: wrap;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+} 

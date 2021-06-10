@@ -24,8 +24,9 @@ const Toolbar = () => {
               <a href="#games">Игры</a>
             </li>
             <li>
-              <a href="#contact">Контакты клуба</a>
+              <a href="#contact">Контакты</a>
             </li>
+            
           </ul>
         </div>
       </div>
