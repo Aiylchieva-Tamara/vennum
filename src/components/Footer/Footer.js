@@ -1,5 +1,8 @@
 import classes from "./Footer.module.css";
 import star from "../../images/star.png";
+import map from "../../images/map.png";
+import phone from "../../images/phone.png";
+import inst from "../../images/iconinst.png";
 
 const Footer = () => {
  
@@ -13,15 +16,16 @@ const Footer = () => {
 
       <div>
           <h6>LOCATION</h6>
-          <ul>
-              <li>5 минут от м. Щелковская</li>
-              <li>Щелковское шоссе 79к1</li>
-              <img src={star} alt="Logo of the Music"/>
+          <ul className={classes.footerdjjiv}>
+              
+              <li><img src={map} alt="Logo of the Music"/><a> Ленком Майка, Кафе "Дениз" 2 этаж</a></li>
+              <img src={star} alt="Logo of the Music" style={{ width: ` 150px`, height: ` 50px`}}/>
           </ul>
       </div>
-      <div>
+      <div className={classes.footerdjjiv}>
           <h6>CONNECT</h6>
-          <p>8(977)1478842</p>
+          <p><img src={phone} alt="Logo of the Music"/><a>+996700001681</a></p>
+          <p><a><img src={inst} alt="Logo of the Music"/></a></p>
       </div>
       </div>
     </div>
