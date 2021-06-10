@@ -1,0 +1,50 @@
+.Cafe{
+    border: 3px solid white;
+    border-radius: 15px;
+    color: white;
+    width: 380px;
+    margin: 10px;
+    padding: 10px;
+}
+.Cafe h4{
+    color: #ffffff;
+    font-family: "Poppins", Arial;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.Cafe h2{
+    color: #ffffff;
+    font-family: "Poppins", Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 0px #f92056;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+}
+.pricetext{
+    color:  #00deff;
+    font-family: "Poppins", Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+.price{
+    background-color: #00deff;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    font-family: "Poppins", Arial;
+    font-weight: 700;
+}
+.big p{
+    margin: 0;
+}
+.big{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
