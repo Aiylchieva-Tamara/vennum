@@ -1,0 +1,32 @@
+.Header{
+    background-color: #262a2b;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+.Headercontainer{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.leftparth{
+    width: 100%;
+}
+.leftparth ul{
+    list-style-type: none;
+    padding-left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.leftparth  li{
+    font-family: "Arial", Arial;
+    font-size: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
