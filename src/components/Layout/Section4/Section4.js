@@ -24,17 +24,16 @@ const Section4 = () => {
           <div className={classes.bigger}>
           <div >
             <h5>МОНИТОРЫ</h5>
-            <h3>AOC 24″ Gaming C24G1 144Hz</h3>
-            <h3>AOC 24″ Gaming C27G2ZE 240Hz</h3>
+            <h3>27" 144 герц</h3>
           </div>
 
           <div>
             <h5>ВИДЕОКАРТА</h5>
-            <h3>GeForce 2060RTX GigaByte 6Gb</h3>
+            <h3>GTX 1060 4GB</h3>
           </div>
 
           <div>
-            <h5>ПЕРИФЕРИЯ</h5>
+            <h5>ПЕРИФЕРИЯ-топовые девайсы от Bloody</h5>
             <h6>Мышка</h6>
             <h3>Razer Abyssus Essential</h3>
             <h3>Logitech g403</h3>
@@ -50,8 +49,12 @@ const Section4 = () => {
 
           <div>
             <h5>ПРОЦЕССОР</h5>
-            <h3>i5 – 8400 3.4 mhz</h3>
-            <h3>i7 – 1070k 4.8 mhz</h3>
+            <h3>i5 10-ПОКОЛЕНИЯ</h3>
+          </div>
+
+          <div>
+            <h5>ОПЕРАТИВНАЯ ПАМЯТЬ</h5>
+            <h3>16gb</h3>
           </div>
 
           <div>
