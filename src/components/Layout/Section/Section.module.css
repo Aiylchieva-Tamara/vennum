@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.imgcontainer{
+    max-width: 1140px;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+.imgcontainersm{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.imgcontainerbig{
+    width: 50%;
+}
+.img h2{
+    font-size: 80px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: "Poppins", Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 0px #f92056;
+}
+.img h1{
+    font-family: 'Reggae One', cursive;
+    font-size: 120px;
+    color: red;
+    box-shadow: 12px 12px 2px 1px rgba(211, 133, 133, 0.9);
+}
+@media(max-width:960px){
+    .imgcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imgcontainersm{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgcontainerbig{
+        width: 100%;
+    }
+    .img h2{
+    text-align: center;
+    margin-top: 0;
+}
+    .img h1{
+   text-align: center;
+}
+}
+@media(max-width:760px){
+    .img h2{
+        font-size:60px ;
+    }
+        .img h1{
+            font-size:100px ;
+    }
+}
