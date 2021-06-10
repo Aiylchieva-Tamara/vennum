@@ -1,4 +1,8 @@
 import classes from "./Header.module.css";
+import inst from "../../images/iconinst.png";
+import phone from "../../images/phone.png";
+import map from "../../images/map.png";
+
 
 const Header = () => {
   return (
@@ -6,10 +10,9 @@ const Header = () => {
         <div className={classes.Headercontainer}>
           <div className={classes.leftparth}>
               <ul>
-              <li>+7(977)1478842</li>
-              <li>+7(966)3220805</li>
-              <li>go@venum.kg</li>
-              <li>Пон-Вост:24/7</li>
+              <li><img src={phone} alt="Logo of the Music"/><a>+996700001681</a></li>
+              <li><img src={map} alt="Logo of the Music"/><a> Кафе "Дениз" 2 этаж</a></li>
+              <li><a><img src={inst} alt="Logo of the Music"/></a></li>
               </ul>
           </div>
           <div className={classes.ridhtparth}>
