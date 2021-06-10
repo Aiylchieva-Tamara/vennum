@@ -1,0 +1,27 @@
+.img{
+    background-size: cover;
+    
+}
+.section5 div :hover{
+    background-color: black;
+}
+.price :hover{
+   color: white;
+}
+.section5{
+    max-width: 1140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media(max-width:1200px){
+    .section5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
