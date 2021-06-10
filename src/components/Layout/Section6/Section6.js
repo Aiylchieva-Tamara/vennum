@@ -6,7 +6,6 @@ import games3 from "../../../images/games4.jpg";
 import games4 from "../../../images/games3.jpg";
 import games5 from "../../../images/games5.jpg";
 import games6 from "../../../images/games6.jpg";
-import games7 from "../../../images/games7.jpg";
 import games8 from "../../../images/games8.jpg";
 import games9 from "../../../images/games9.jpg";
 
@@ -62,12 +61,7 @@ const Section6 = () => {
                 </div>
               </div>
 
-              <div style={{ backgroundImage: `url(${games7})` }}>
-                <div className={classes.gamestext}>
-                  <h2>Mortal Kombat 11</h2>
-                  <h4>Играем на PS4</h4>
-                </div>
-              </div>
+             
 
               <div style={{ backgroundImage: `url(${games8})` }}>
                 <div className={classes.gamestext}>
