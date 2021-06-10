@@ -1,0 +1,44 @@
+.Text h4{
+    color: #ffffff;
+    font-family: "Poppins", Arial;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.Text h2{
+    color: #ffffff;
+    font-family: "Poppins", Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 0px #f92056;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.gamestext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.games div{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.games div :hover{
+    background-color: transparent;
+    background-image: linear-gradient(
+90deg
+, rgba(51,51,51,0) 25%, #000000 100%);
+    opacity: 0.9;
+}
