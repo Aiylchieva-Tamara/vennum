@@ -4,17 +4,19 @@
 }
 .section{
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
 }
 .section2div{
-    width: 100%;
+    width: 400px;
     height: 380px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding: 270px 35px 30px 35px;
+}
+.section2div div{
+   margin: 10px;
+   z-index: auto;
 }
 .section2div :hover{
     z-index: 1;
