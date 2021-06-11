@@ -19,7 +19,7 @@ const Footer = () => {
           <ul className={classes.footerdjjiv}>
               
               <li><img src={map} alt="Logo of the Music"/><a  href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x38865be97576c22f:0xb61d323ddff08b41?utm_source=mstt_1&entry=gps"> Ленком Майка, Кафе "Дениз" 2 этаж</a></li>
-              <img src={star} alt="Logo of the Music" style={{ width: ` 150px`, height: ` 50px`}}/>
+              
           </ul>
       </div>
       <div className={classes.footerdjjiv}>

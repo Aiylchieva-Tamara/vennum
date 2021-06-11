@@ -12,7 +12,7 @@ const Section2 = () => {
             <div className={classes.section2div}>
 
                <h2>ТОП ЖЕЛЕЗО</h2>
-              <h4>22 компьютера - Основной зал / Vip зона</h4>
+              <h4>16 компьютера - Основной зал</h4>
             </div>
           </div>
 

@@ -33,18 +33,9 @@ const Section4 = () => {
           </div>
 
           <div>
-            <h5>ПЕРИФЕРИЯ-топовые девайсы от Bloody</h5>
-            <h6>Мышка</h6>
-            <h3>Razer Abyssus Essential</h3>
-            <h3>Logitech g403</h3>
-
-            <h6>Клавиатура</h6>
-            <h3>Razer Cynosa Pro Bundle</h3>
-            <h3>Logitech g403</h3>
-
-            <h6>Наушники</h6>
-            <h3>Hyperx cloud stinger</h3>
-            <h3>Razer Kraken Essential</h3>
+            <h5>ПЕРИФЕРИЯ</h5>
+            
+            <h3>Девайсы от Bloody</h3>
           </div>
 
           <div>

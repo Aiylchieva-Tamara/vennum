@@ -6,7 +6,7 @@
 }
 .img{
     width: 500px;
-    height: 900px;
+    height: 870px;
     background-size: cover;
 }
 .text{
@@ -43,19 +43,20 @@
 }
 .bigger h5{
     color: #f92056;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1;
     margin: 0;
     padding: 10px;
     border-bottom: 1px solid #d4d4d4;
     cursor: pointer;
     outline: none;
+    font-size: 18px;
 }
 .bigger h3{
     color: #646669;
     padding-left: 60px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     margin: 5px;
 }
 .bigger h6{
@@ -72,7 +73,7 @@
         justify-content: center;
     }
     .text{
-        height: 960px;
+        height: 900px;
     }
     .img{
         width: 400px;
