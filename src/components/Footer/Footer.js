@@ -1,5 +1,4 @@
 import classes from "./Footer.module.css";
-import star from "../../images/star.png";
 import map from "../../images/map.png";
 import phone from "../../images/phone.png";
 import inst from "../../images/iconinst.png";
