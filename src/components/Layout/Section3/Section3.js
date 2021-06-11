@@ -18,7 +18,7 @@ const Section3 = () => {
               онлайн-противником без подвисания компьютера и «глюков».
             </p>
              <div className={classes.button}>
-             <button >забронировать<br/>+996700001681</button>
+             <button >забронировать<br/><a href="tel:+996700001681">+996700001681</a></button>
              </div>
           </div>
         </div>
